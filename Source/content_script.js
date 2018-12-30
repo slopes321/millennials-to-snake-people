@@ -19,9 +19,9 @@ function handleText(textNode) {
   textNode.nodeValue = translate(textNode.nodeValue);
 }
 
-function translateWord(text, TweetSpeak, translation)
+function translateWord(text, tweetSpeak, translation)
 {
-  var needle = new RegExp("\\b(" + TweetSpeak + ")(\\b)", "ig");
+  var needle = new RegExp("\\b(" + tweetSpeak + ")(\\b)", "ig");
   return text.replace(needle, "$1 [" + translation + "]$2");
 }
 
@@ -29,9 +29,9 @@ function translate(text)
 {
   return dictionary.reduce(
     function(partialTranslation, entry) {
-      var TweetSpeak = entry[0];
+      var tweetSpeak = entry[0];
       var english = entry[1];
-      return translateWord(partialTranslation, TweetSpeak, english)
+      return translateWord(partialTranslation, tweetSpeak, english)
     },
     text,
   );
