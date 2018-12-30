@@ -1,6 +1,6 @@
-# TwitterSpeak Translator
+# TweetSpeak Translator
 
-Browser extension that translates TwitterSpeak to plain English.
+Browser extension that translates TweetSpeak to plain English.
 
 
 ## Installation
@@ -46,4 +46,4 @@ Don't worry! The extension can be re-enabled after ~~it destroys your blog post~
 
 ### Safari
 
-`Preferences` > `Extensions` > Uncheck checkbox next to `TwitterSpeak Translator`
+`Preferences` > `Extensions` > Uncheck checkbox next to `TweetSpeak Translator`
