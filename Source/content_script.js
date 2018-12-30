@@ -21,7 +21,7 @@ function handleText(textNode) {
 
 function translateWord(text, tweetSpeak, translation)
 {
-  var needle = new RegExp("\\b(" + tweetSpeak + ")(\\b)", "ig");
+  var needle = new RegExp("\\b(" + tweetSpeak + ")(\\b(?!\\s\\[))", "ig");
   return text.replace(needle, "$1 [" + translation + "]$2");
 }
 
