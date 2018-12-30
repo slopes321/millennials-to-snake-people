@@ -11,10 +11,13 @@
 		"48": "icon48.png",
 		"128": "icon128.png"
 	},
+	"permissions": [
+    "activeTab"
+  ],
 	"content_scripts":
 	[
 		{
-			"matches": ["*://*/*"],
+			"matches": ["https://twitter.com/*"],
 			"all_frames": true,
 			"js": [
 				"dictionary.js",
