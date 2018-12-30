@@ -45,7 +45,6 @@ var dictionary = Object.entries({
   'DS': 'dear son',
   'DYK': 'did you know',
   'ELI5': 'explain like I\'m 5 (years old)',
-  'EM': 'email',
   'EMA': 'email address',
   'EML': 'email',
   'ESP': 'email service provider',
