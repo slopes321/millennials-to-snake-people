@@ -1,10 +1,10 @@
 {
-	"manifest_version": 1,
+	"manifest_version": 2,
 	"name": "TweetSpeak Translator",
   "short_name": "TweetSpeak",
 	"description": "Auto-translates TweetSpeak words directly on the web page",
 	"author": "Silvio Lopes",
-	"version": "1.0",
+	"version": "0.0.0.1",
 	"icons": {
 		"16": "icon16.png",
 		"32": "icon32.png",
