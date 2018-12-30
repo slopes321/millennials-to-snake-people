@@ -203,7 +203,7 @@ var dictionary = Object.entries({
   'TYVW': 'thank you very much',
   'UGC': 'user generated content',
   'U': 'you',
-  'UR': 'your',
+  'UR': 'your / you\'re',
   'W/E': 'whatever or weekend',
   'WBU': 'what about you',
   'WCW': 'woman crush wednesday',
